@@ -4,8 +4,35 @@
   box-sizing: border-box;
 }
 
-.element1 {
-  background-color: aqua;
-  width: 150px;
-  border-radius: 10px;
+#burger_menu {
+  background-color: lightblue;
+}
+
+#burger_menu img {
+  margin: 20px;
+}
+
+.nav_menu {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 100vh;
+  background-color: lightpink;
+  padding: 20px;
+  /* transform: translateX(-100%); */
+  transition: all 0.2s linear;
+  box-shadow: 10px 10px 20px rgb(178, 177, 177);
+  border-radius: 0px 10px;
+}
+
+.close-button {
+  align-self: flex-end;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: lightpink;
+  border: 2px solid black;
+  color: black;
+  text-align: center;
 }
